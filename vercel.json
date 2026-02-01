@@ -22,6 +22,14 @@
       "destination": "https://next-api-jade.vercel.app/api/openai/v1/:match*"
     },
     {
+      "source": "/mxv1/:match*",
+      "destination": "https://api.minimaxi.com/v1/:match*"
+    },
+    {
+      "source": "/zpv1/:match*",
+      "destination": "https://api.minimaxi.com/v1/:match*"
+    },
+    {
       "source": "/chat/:match*",
       "destination": "https://next-api-jade.vercel.app/api/openai/v1/chat/:match*"
     },
